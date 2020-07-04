@@ -1,4 +1,10 @@
+$main-background: rgb(236, 242, 248);
+$box-shadow: rgb(158, 175, 194);
+$dark-box-shadow: rgb(109, 127, 151);
+$share-background: rgb(72, 85, 106);
+
 body {
+  color: $main-background;
   font-family: 'Manrope', sans-serif;
   font-size: 13px;
 }
