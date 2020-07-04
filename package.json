@@ -1,0 +1,22 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass src/main.scss -o dist",
+    "scss:watch": "npm run scss && node-sass src/main.scss -wo dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joelynn94/article-preview-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joelynn94/article-preview-component/issues"
+  },
+  "homepage": "https://github.com/Joelynn94/article-preview-component#readme"
+}
