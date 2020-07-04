@@ -2,9 +2,82 @@ $main-background: rgb(236, 242, 248);
 $box-shadow: rgb(158, 175, 194);
 $dark-box-shadow: rgb(109, 127, 151);
 $share-background: rgb(72, 85, 106);
+$headings-color: rgb(83, 92, 100);
+$paragraphs-color: rgb(96, 108, 118);
+$heading-font-weight: 700;
+$paragraph-font-weight: 500;
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  color: $main-background;
+  background-color: $main-background;
   font-family: 'Manrope', sans-serif;
   font-size: 13px;
+}
+
+.large-img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.article {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0px 16px 10px rgb(158, 175, 194);
+  margin-bottom: 4rem;
+}
+
+.article__body {
+  padding: 1.75rem;
+  line-height: 1.5;
+
+  h3 {
+    color: $headings-color;
+    font-weight: $heading-font-weight;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $paragraphs-color;
+    font-weight: $paragraph-font-weight;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    line-height: 1.75;
+    margin-bottom: 0;
+  }
+}
+
+.article__footer {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+
+  .article__author-image {
+    width: 100%;
+
+    img {
+      width: 3rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+.article__share-active {
+  display: none;
+  background-color: $share-background;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
 }

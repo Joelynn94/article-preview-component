@@ -20,56 +20,80 @@
     <title>Joseph Lynn | Article preview component</title>
   </head>
   <body>
-    <!-- Article -->
-    <div class="article">
-      <!-- Article Image -->
-      <div class="article__img">
-        <img src="./images/drawers.jpg" alt="Article Image" />
-      </div>
-      <!-- End Article Image -->
-      <!-- Article Body -->
-      <div class="article__body">
-        <h3>
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h3>
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-        <!-- Article Footer -->
-        <div class="article__footer">
-          <!-- Author info -->
-          <div class="article__author">
-            <img
-              src="./images/avatar-michelle.jpg"
-              alt="Article author image"
-            />
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Article -->
+      <div class="article">
+        <!-- Article Image -->
+        <div class="article__img">
+          <img
+            class="large-img"
+            src="./images/drawers.jpg"
+            alt="Article Image"
+          />
+        </div>
+        <!-- End Article Image -->
+        <!-- Article Body -->
+        <div class="article__body">
+          <h3>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <!-- Article Footer -->
+          <div class="article__footer">
+            <!-- Author info -->
+            <div class="article__author-image">
+              <img
+                src="./images/avatar-michelle.jpg"
+                alt="Article author image"
+              />
+            </div>
             <!-- Author Details -->
             <div class="article__author-info">
               <h4>Michelle Appleton</h4>
               <p>Published Date</p>
             </div>
             <!-- Author Details -->
+            <img
+              id="shareIcon"
+              src="./images/icon-share.svg"
+              alt="Article share icon"
+            />
+            <!-- End Author info -->
           </div>
-          <img src="./images/icon-share.svg" alt="Article share icon" />
-          <!-- End Author info -->
-
           <!-- Article Share -->
-          <div class="article__share-active">
+          <div id="shareDiv" class="article__share-active">
             <h2>SHARE</h2>
-            <img src="./images/icon-facebook.svg" alt="Facebook icon" />
-            <img src="./images/icon-twitter.svg" alt="Twitter icon" />
-            <img src="./images/icon-pinterest.svg" alt="Pinterest icon" />
+            <a href="#">
+              <img src="./images/icon-facebook.svg" alt="Facebook icon" />
+            </a>
+            <a href="#">
+              <img src="./images/icon-twitter.svg" alt="Twitter icon" />
+            </a>
+            <a href="">
+              <img src="./images/icon-pinterest.svg" alt="Pinterest icon" />
+            </a>
+            <a href="#">
+              <img
+                id="closeShare"
+                src="./images/icon-share.svg"
+                alt="Article share icon"
+              />
+            </a>
           </div>
           <!-- End Article Share -->
+          <!-- End Article Footer -->
         </div>
-        <!-- End Article Footer -->
+        <!-- End Article Body -->
       </div>
-      <!-- End Article Body -->
+      <!-- End Article -->
     </div>
-    <!-- End Article -->
+    <!-- End Main Container -->
     <!-- Main Footer -->
     <div class="attribution">
       Challenge by
@@ -78,5 +102,6 @@
       >. Coded by <a href="https://github.com/Joelynn94">Joseph lynn</a>.
     </div>
     <!-- End Main Footer -->
+    <script src="./src/main.js"></script>
   </body>
 </html>
