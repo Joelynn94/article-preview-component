@@ -10,9 +10,17 @@ The designs were created to the following widths:
 ## Colors
 
 - Very Dark Grayish Blue: hsl(217, 19%, 35%)
+  RGB(72, 85, 106)
+  HEX #48556A
 - Desaturated Dark Blue: hsl(214, 17%, 51%)
+  RGB(109, 127, 151)
+  HEX #6D7F97
 - Grayish Blue: hsl(212, 23%, 69%)
+  RGB(158, 175, 194)
+  HEX #9EAFC2
 - Light Grayish Blue: hsl(210, 46%, 95%)
+  RGB(236, 242, 248)
+  HEX #ECF2F8
 
 ## Typography
 
